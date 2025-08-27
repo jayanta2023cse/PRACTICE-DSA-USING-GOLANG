@@ -1,0 +1,12 @@
+{
+  "local": {
+    "host": "jayanta-HP-Laptop-14s-dk0xxx",
+    "os": "linux",
+    "username": "jayanta",
+    "ips": [
+      "10.133.143.45"
+    ],
+    "alive": true
+  },
+  "network": null
+}

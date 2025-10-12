@@ -32,7 +32,9 @@ import "log"
 // Approach 1 :
 // Use a map of int to track that the current number is present in this map or not
 // and if we get found into the map then return the number
-func FindDuplicateSol1(nums []int) {
+func FindDuplicateSol1() {
+	nums := []int{1, 3, 4, 2, 2}
+
 	numsMap := make(map[int]bool)
 	finalVal := 0
 	for _, val := range nums {

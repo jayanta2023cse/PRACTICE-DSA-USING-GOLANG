@@ -50,7 +50,7 @@ func WithoutSelectStatement(chan1, chan2 chan string) {
 // Then chan1 becomes ready after 2 more seconds → prints "Message from chan1".
 
 func WithSelectStatement(chan1, chan2 chan string) {
-	for range 2 {
+	for {
 		select {
 		case msg1 := <-chan1:
 			log.Println("Message from ", msg1)
